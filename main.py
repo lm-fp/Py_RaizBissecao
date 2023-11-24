@@ -46,3 +46,5 @@ raiz_bissecao = metodo_bissecao(coeficientes, a_intervalo, b_intervalo)
 
 if raiz_bissecao is not None:
     print(f"A raiz da equação (método da Bisseção) é aproximadamente: {raiz_bissecao}")
+else:
+  print("Não foi possível encontrar uma raiz no intervalo fornecido.")
